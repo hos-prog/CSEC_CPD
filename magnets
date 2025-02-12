@@ -1,0 +1,10 @@
+number=int(input())
+groups=1
+magnet_1=int(input())
+for I in range(number-1):
+    value=int(input())
+    if value!=magnet_1:
+        groups+=1
+    magnet_1=value
+print(groups)    
+    
