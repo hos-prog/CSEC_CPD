@@ -1,4 +1,5 @@
-n = int(input())  
-teams = [tuple(map(int, input().split())) for _ in range(n)]  
-count = sum(1 for i in range(n) for j in range(n) if i != j and teams[i][0] == teams[j][1])  
-print(count)
+k, r = map(int, input().split())
+for i in range(1, 11):
+  if (k * i) % 10 == 0 or (k * i) % 10 == r:
+    print(i)
+    break
