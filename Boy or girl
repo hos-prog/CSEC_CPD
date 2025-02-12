@@ -1,0 +1,8 @@
+no_=input().lower()
+no_1=input().lower()
+if no_1>no_:
+    print(-1)
+elif no_>no_1:
+    print(1)
+else:
+    print(0)
