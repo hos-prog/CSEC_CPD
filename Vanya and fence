@@ -1,0 +1,9 @@
+n,h=map(int,input().split())
+heights=map(int,input().split())
+width=0
+for I in heights:
+    if I<=h:
+        width+=1
+    else:
+        width+=2
+print(width)
