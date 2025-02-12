@@ -1,0 +1,8 @@
+s = input()
+current = 'a'
+moves = 0
+for char in s:
+  diff = abs(ord(char) - ord(current))
+  moves += min(diff, 26 - diff)
+  current = char
+print(moves)
