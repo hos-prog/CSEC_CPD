@@ -1,0 +1,8 @@
+def count_letters(s):
+    return len(set(s))
+no_=input().lower()
+number=count_letters(no_)
+if number%2==0:
+    print("CHAT WITH HER !")
+else:
+    print("IGNOR HIM!")
