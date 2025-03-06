@@ -1,0 +1,16 @@
+relations = [input().strip() for _ in range(3)]
+
+count = {"A": 0, "B": 0, "C": 0}
+
+for r in relations:
+    if r[1] == ">":
+        count[r[2]] += 1
+    else:
+        count[r[0]] += 1
+
+sorted_coins = sorted(count, key=lambda x: count[x], reverse=True)
+
+if list(sorted(count.values())) == [0, 1, 2]:
+    print("".join(sorted_coins))
+else:
+    print("Impossible")
