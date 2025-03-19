@@ -1,0 +1,14 @@
+#AdemHosama_Icpc
+#spavanac
+n,m=list(map(int,input().split()))
+if m<45:
+    m=(m+60)-45
+    if n==0:
+        n+=23
+    else:
+        n-=1    
+    
+    print(n,m)
+else :
+    m-=45
+    print(n,m)
