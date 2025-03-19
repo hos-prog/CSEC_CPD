@@ -1,0 +1,9 @@
+#hosam.Kattis problemsolved
+n=int(input())
+for I in range(n):
+    v=list(map(int,input().split()))
+    for I in v:
+        if I %2==0:
+             print(I,"is even")
+        else:
+            print(I ,"is odd")
