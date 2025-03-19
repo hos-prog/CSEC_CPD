@@ -1,0 +1,4 @@
+#AdemHosama
+n=input()
+t=n[0].upper()+n[1:]
+print(t)
