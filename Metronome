@@ -1,0 +1,4 @@
+#ADEMHOSAMA
+n=int(input())
+b=float(n/4)
+print(b)
