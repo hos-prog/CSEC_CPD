@@ -1,0 +1,6 @@
+#ADEMHOSAMA
+name=input()
+age=int(input())
+for I in range(age):
+    print("Hipp hipp hurra, "+name+"!")
+    
