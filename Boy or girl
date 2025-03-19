@@ -1,8 +1,9 @@
+#AdemHosama 
+def count_letters(s):
+    return len(set(s))
 no_=input().lower()
-no_1=input().lower()
-if no_1>no_:
-    print(-1)
-elif no_>no_1:
-    print(1)
+number=count_letters(no_)
+if number%2==0:
+    print("CHAT WITH HER !")
 else:
-    print(0)
+    print("IGNOR HIM!")
