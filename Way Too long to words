@@ -1,0 +1,10 @@
+#ADEMHOSAMA
+a=int(input())
+for I in range(a):
+    n=input()
+    if len(n)>10:
+         b=n[0]+str(len(n)-2)+n[len(n)-1]
+         print(b)
+    else :
+        print(n)   
+    
