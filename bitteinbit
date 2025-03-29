@@ -1,0 +1,10 @@
+#hosams
+a = input().strip()  
+for I in a:
+    if a.count(I) == 1:  
+        print(I)
+        break
+else:
+        print(a[0])
+
+
