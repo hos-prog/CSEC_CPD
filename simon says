@@ -1,0 +1,7 @@
+#حسام ادم 
+a=int(input())
+remove="Simon says"
+for I in range(a):
+    b=input()
+    if "Simon says" in b:
+        print(b.replace(remove," ").strip())
