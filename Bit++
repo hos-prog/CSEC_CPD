@@ -1,0 +1,11 @@
+#Ademhosama
+a=int(input())
+c=0
+for I in range(a):
+    b=input()
+    if b=="X++" or b== "++X":
+        c+=1
+    elif b=="X--" or b== "--X":
+        c-=1
+print(c)            
+        
