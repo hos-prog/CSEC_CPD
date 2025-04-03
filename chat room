@@ -1,0 +1,12 @@
+#AdemHosama 
+s=input()
+a="hello"
+t=0
+for I in s:
+    if I ==a[t]:
+        t+=1
+        if t==len(a):
+            print("YES")
+            break
+else:
+    print("NO")        
