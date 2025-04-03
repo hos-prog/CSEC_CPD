@@ -6,5 +6,5 @@ for I in range(a):
          b=n[0]+str(len(n)-2)+n[len(n)-1]
          print(b)
     else :
-        print(n)   
+        print(n) 
     
