@@ -1,0 +1,11 @@
+#AdemHosama 
+s=int(input())
+j=0
+b=str(s)
+for I in b:
+    if I =="4" or I=="7":
+        j+=1
+if j==7 or j==4:
+    print("YES")
+else :
+    print("NO")            
