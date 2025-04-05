@@ -1,0 +1,8 @@
+#hosam
+x=int(input())
+print('+'+('-'*x)+'+')
+for I in range(x):
+    print('|'+(' '*x)+'|')
+print('+'+('-'*x)+'+')
+#cheating 
+    
