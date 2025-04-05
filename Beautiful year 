@@ -1,0 +1,10 @@
+#Adem hosam
+x= int(input())
+t=False
+while not t:
+    x+=1
+    b=str(x)
+    if len(set(b))==4:
+        print(x)
+        t=True
+        
