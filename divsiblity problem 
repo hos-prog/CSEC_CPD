@@ -1,0 +1,9 @@
+# Adem Hosam
+t = int(input())
+for i in range(t):
+    a, b = map(int, input().split())
+    rr = a % b
+    if rr == 0:
+        print(0)
+    else:
+        print(b - rr)
