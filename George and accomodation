@@ -1,0 +1,8 @@
+#AdemHosama
+n=int(input())
+b=0
+for i in range(n):
+    pi,qi=map(int,input().split())
+    if pi+1<qi:
+        b+=1
+print(b)        
