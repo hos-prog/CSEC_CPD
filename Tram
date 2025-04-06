@@ -1,0 +1,12 @@
+#AdemHosama
+t=int(input())
+l=[]
+for i in range(t):
+    a,b= map(int,input().split())
+    if i==0:
+        c=a+b
+        l.append(c)
+    else:
+        d=l[-1]-a+b
+        l.append(d)
+print(max(l))
