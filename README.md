@@ -18,7 +18,7 @@ Welcome to my GitHub profile! I'm a passionate and curious computer science stud
 
 ## Let's Connect
 
-- linkedin (https://www.linkedin.com/in/hosam_123456) 
+- linkedin (https://www.linkedin.com/in/hosam_123456?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BCNcv8YPBTuGJkxh8wGR1GA%3D%3D)
 - Email: hosamaadem8@gmail.com
 
 Thanks for visiting my profile!
