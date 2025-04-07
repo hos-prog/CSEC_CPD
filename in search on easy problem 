@@ -1,0 +1,10 @@
+# Adem Hosam
+n=int(input())
+a=map(int,input().split())
+for I in a:
+    if I==1:
+        print("HARD")
+        break
+else :
+    print("EASY")
+        
