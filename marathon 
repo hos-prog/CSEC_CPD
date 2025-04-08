@@ -1,0 +1,13 @@
+#AdemHosama
+
+t=int(input())
+for i in range(t):
+    a,b,c,d=map(int,input().split())
+    e=0
+    if a<b:
+        e+=1
+    if a<c:
+        e+=1
+    if a<d:
+        e+=1
+    print(e)
