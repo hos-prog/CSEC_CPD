@@ -1,0 +1,19 @@
+#AdemHosama_Icpc 
+n=int(input())
+k=[]
+t=0
+for i in range(n):
+    row=list(map(int,input().split()))
+    k.append(row)
+#then using for loops
+for i in range(n):
+    for j in range(n):
+        if i==j :
+            t+=k[i][j]
+        elif i+j==n-1:
+            t+=k[i][j]
+        elif i==(n-1)/2:
+            t+=k[i][j]
+        elif j==(n-1)/2:
+            t+=k[i][j]
+print(t)
