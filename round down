@@ -1,0 +1,5 @@
+t = int(input())
+for _ in range(t):
+    m = int(input())
+    k = 10 ** (len(str(m)) - 1)
+    print(m - k)
