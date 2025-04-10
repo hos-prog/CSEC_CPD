@@ -1,0 +1,8 @@
+# Adem Hosam
+t=input()
+s=input()
+b=s[::-1]
+if t==b:
+    print("YES")
+else :
+    print("NO")
