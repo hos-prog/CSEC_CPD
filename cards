@@ -1,0 +1,6 @@
+#AdemHosama
+t=int(input())
+b=input()
+c=b.count('z')
+d=b.count('n')
+print(('1 '*d)+('0 '*c))
