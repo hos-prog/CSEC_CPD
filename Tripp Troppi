@@ -1,0 +1,5 @@
+#AdemHosama
+t=int(input())
+for _ in range(t):
+    m,v,b=input().split()
+    print(m[0]+v[0]+b[0])
