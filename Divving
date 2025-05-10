@@ -1,0 +1,7 @@
+#HosamaAdem katis
+t=int(input())
+s=map(int,input().split())
+if sum(s)%3==0:
+    print("yes")
+else:
+    print("no")
