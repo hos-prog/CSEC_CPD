@@ -6,3 +6,4 @@ for i in range(n):
     if pi+1<qi:
         b+=1
 print(b)        
+# This code has O(n) complexity's 
